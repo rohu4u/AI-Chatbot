@@ -1,0 +1,30 @@
+version: "3.0"
+
+stories:
+
+- story: introduction path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: introduction
+  - action: utter_iamabot
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: current time path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: current_time
+  - action: action_current_time
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: study material path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: study_material
+  - action: action_study_material
+  - intent: goodbye
+  - action: utter_goodbye

@@ -1,0 +1,58 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: introduction
+  examples: |
+    - tell me something about yourself
+    - who are you
+    - your name please
+    - introduce yourself
+    - are you a robot
+
+- intent: current_time
+  examples: |
+    - tell me whats the time
+    - what is the time
+    - time
+    - time please
+
+- intent: study_material
+  examples: |
+    - help me prepare for [python](subject) [interview](material_type)
+    - find me some [interview](material_type) question in [python](subject)
+    - send me [tutorial](material_type) video links for [python](subject)
+    - get me some [python](subject) [tutorial](material_type) links
+    - help me prepare for [java](subject) [interview](material_type)
+    - find me some [interview](material_type) question in [java](subject)
+    - send me [tutorial](material_type) video links for [java](subject)
+    - get me some [java](subject) [tutorial](material_type) links
+    

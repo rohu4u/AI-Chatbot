@@ -1,0 +1,30 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - introduction
+  - current_time
+  - study_material
+
+entities:
+  - subject
+  - material_type
+
+actions:
+  - action_current_time
+  - action_study_material
+
+responses:
+  utter_greet:
+  - text: "Hey! How can i help you.....?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "Hello Sir, i am Jarvis, an highly intelligent ai bot developed by Itvedant."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
